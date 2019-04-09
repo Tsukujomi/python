@@ -17,14 +17,14 @@
 #=========================================================
 # Homework 7.2
 
-# slaptas_skaicius = 9
-#
-# spejimas = int(input("iveskite spejima nuo 0 iki 9: " ))
-#
-# if spejimas == slaptas_skaicius:
-#     print("sveikinu atspejus")
-# else:
-#     print("bandykite dar karta")
+slaptas_skaicius = 9
+
+spejimas = int(input("iveskite spejima nuo 0 iki 9: " ))
+
+if spejimas == slaptas_skaicius:
+    print("sveikinu atspejus")
+else:
+    print("bandykite dar karta")
 
 
 #=========================================================
