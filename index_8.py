@@ -1,77 +1,83 @@
-#=========================================================
-# while ciklas - kol salyga teisinga/True , tol kartoja
+# int
+a = 1
+# print(a)
 
-# slaptas_skaicius = 9
-# spejimas = 9
+# string
+b = "labas pasauli"
+# print(b)
+
+# float
+c = 1.5
+# print(c)
+
+# booleans
+d = True
+e = False
+
+# none
+f = None
+
+vardas = "Benas"
+pavarde = "Jak"
+
+# ===========================
+
+x = 2
+y = 3
+
+print(x+y)
+
+print(f"{vardas} {pavarde}")
+
+# 3 kabutės = multiline komentaras - pradzioje 3 ir gale 3
+'''
+multi
+line
+komentaras
+'''
+
+'''
+# kad veiktu kintamojo issaukimas, turi buti f pries teksta - eilute 42
+kazkas = input("iveskite kazka: ")
+print(f"printinu kazka: {kazkas}")
+'''
+
+# x = int(input("iveskite x verte "))
+#
+# y = int(input("iveskite y verte "))
+#
+# suma = x + y
+#
+# print(f"suma: {suma}")
+#
+# str_suma = str(suma)
+
+# ======================================================
+# temperatura = int(input("iveskite temperatura:"))
+#
+# if temperatura > 10:
+#     print("vaziuok dviraciu")
+# elif temperatura > 5:
+#     print("vaziuok su tacka")
+# else:
+#     print("buk namie ir uzsisakyk pica")
 #
 #
-# while spejimas != slaptas_skaicius:
-#     spejimas = int(input("iveskite spejima nuo 0 iki 9: "))
-#     if spejimas == slaptas_skaicius:
-#         print("sveikinu atspejus")
-#     else:
-#         print("bandykite dar karta")
 
-
-
-#=========================================================
-# For ciklas - kartoja cikla kazkiek kartu
-
-# slaptas_skaicius = 4
-# spejimas = 0
+# user_name = input("Please enter your name: ")
 #
-# for i in range(5):
-#     print(i) #kiek kartu jau prasukta - nuolat dideja
-#     spejimas = int(input("iveskite spejima nuo 0 iki 9: "))
-#     if spejimas == slaptas_skaicius:
-#         print("sveikinu atspejus")
-#         break
-#     else:
-#         print("bandykite dar karta")
+# print("Hello " +user_name+ "!")
 
-#=========================================================
+# nuotaika = input("kokia jusu nuotaika? ")
 #
+# if nuotaika == "gera":
+#     print(" :) ")
+# else:
+#     print(" :( ")
 
-# slaptas_skaicius = 4
-# spejimas = 0
-# sarasas =[1, "bmw", float(),]
-#
-# for i in sarasas:
-#     print(i) #kiek kartu jau prasukta - nuolat dideja
-#     spejimas = int(input("iveskite spejima nuo 0 iki 9: "))
-#     if spejimas == slaptas_skaicius:
-#         print("sveikinu atspejus")
-#         break
-#     else:
-#         print("bandykite dar karta")
+#Now let's try to create a simple calculator that adds two numbers that the user writes in:
 
-#=========================================================
-#while
+first_num = int(input("Enter the first number: "))
+second_num = int(input("Enter the second number: "))
 
-# temperatura = int(input('ivesk temperatura: '))
-# while temperatura > 0:
-#     print('silta')
-#     temperatura = int(input('ivesk temperatura: '))
-
-
-#=========================================================
-# FOR 10 kartu - rubas
-
-# temperatura = 0
-#
-# for i in range(10):
-#     print(i) #kiek kartu jau prasukta - nuolat dideja
-#     temperatura = int(input("iveskite temperatura: "))
-#     if temperatura > 10:
-#         print("eik su sortais")
-#         break
-#     else:
-#         print("dekis palta")
-
-#=========================================================
-# bibliotekos importavimas
-import random #pilna biblioteka random
-print(random.randint(1,10))#isves random skaiciu nuo 1 iki 10
-
-from random import randint #tik integer is random bibliotekos
-print(randint(1,10)) #isves random skaiciu nuo 1 iki 10
+print(first_num + second_num)
